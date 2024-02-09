@@ -1,0 +1,84 @@
+.title {
+  font-family: "Playfair Display";
+  color: Green;
+}
+
+h1.heading {
+  text-transform: uppercase;  	
+}
+
+h3.heading {
+  text-align: center;
+  border-style: outset solid dotted solid;
+  border-radius: 10px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+.bear_pic {
+  /*centering an image: by default images are inline, they must be changed to block-level to center properly, 
+  then set margin to 0 top/bottome and auto left/right*/
+  display: block;
+  margin: 0px auto;
+}
+
+.help_menu {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.help_list li {
+  text-transform: uppercase;
+  display: inline;
+  margin-right: 75px;
+}
+
+.hehe {
+  visibility: hidden;
+}
+
+.ethan {
+  text-align: right;
+}
+
+.ethan_reasons {
+  color: Maroon;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.words {
+  border: 5px solid rgba(0, 0, 0, 0.5);
+  border-width: 4px 7px;
+  border-radius: 100%;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 17px;
+}
+
+.thanks {
+  text-align: center;
+  font-weight: bold;
+}
+
+table, td {
+  border: 1px solid black;	
+}
+
+/*
+#link {
+  max-width: 50px;
+}
+*/
+/*adding a color gradient as the background
+body {
+  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
+}
+*/
+
+/*setting a background image, its state of repeat (no-repeat, repeat-x, etc.), and its position (top right, bottom left, etc.)
+body {
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg") no-repeat top right;
+}
+*/
